@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'mysite/style.css' %}">
 <body>
 {% if last_question_list %}
     <ul>
